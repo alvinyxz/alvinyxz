@@ -1,0 +1,323 @@
+\documentclass[12pt, letterpaper]{article}
+\usepackage{fontspec}
+\usepackage{amsmath}
+\usepackage[]{hyperref} % hidelinks adds hyper links inside the generated pdf file
+\hypersetup{
+	colorlinks=true,% false: boxed; true: colored links
+	linkcolor=blue,% color of internal links
+	citecolor=blue,% color of links to bibliography
+	filecolor=blue,% color of file links
+	urlcolor=blue% color of URLs
+}
+
+% DOCUMENT LAYOUT
+\usepackage{geometry}
+\geometry{hoffset=0pt, textwidth=450pt, textheight=9in, marginparwidth=100in}
+\setlength\parindent{0in}
+
+\usepackage{libertine,libertinust1math} % use Libertine font
+
+% CUSTOM COMMANDS
+\chardef\&="E050
+\newcommand{\doi}[1]{\href{#1}{{[doi]}}}
+\newcommand{\preprint}[1]{\href{#1}{{[pre-print]}}}
+\newcommand{\media}[1]{\href{#1}{{[media]}}}
+
+% MARGIN YEARS
+\usepackage{marginnote}
+\newcommand{\years}[1]{\marginnote{\normalsize #1}}
+\setlength{\marginparsep}{10pt}
+\reversemarginpar
+
+% HEADINGS
+\usepackage{sectsty}
+\usepackage[normalem]{ulem} 
+\sectionfont{\bfseries\Large\scshape}
+\subsectionfont{\bfseries\normalsize\itshape}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+% Title
+\begin{flushright}
+\footnotesize
+3620 Walnut St\\
+Philadelphia, PA 19104\\
+Email: \href{mailto:alvinyxz@upenn.edu}{alvinyxz@upenn.edu}\\
+Website: \href{https://alvinyxz.me}{alvinyxz.me}\\
+\href{https://scholar.google.com/citations?user=_gHXwrsAAAAJ&hl=en}{Google Scholar} | \href{https://osf.io/utdaf/}{OSF} | \href{https://publons.com/researcher/1698569/alvin-zhou/}{Publon} | \href{https://twitter.com/alvinyxz}{Twitter}
+\end{flushright}
+\noindent{\LARGE\bfseries\scshape Alvin Zhou} \hfill \footnotesize Updated: Feb 2020
+\bigskip
+\hrule
+\normalsize
+
+% Education
+\section*{Education}
+
+\textbf{University of Pennsylvania}
+
+  \years{Ex. 2022} Ph.D. in Communication, The Annenberg School\\
+%  \years{} \hspace*{2em} \textit{Concentration: Digital Media \& Social Networks}\\
+%  \years{} \hspace*{2em} \textit{Advisor: Sandra González-Bailón}\\
+%  \years{} \hspace*{2em} \textit{Readers: Yphtach Lelkes \& Michael X. Delli Carpini}\\
+  \years{2020} M.A. in Statistics, The Wharton School\\
+  \years{2019} M.A. in Communication, The Annenberg School\\
+
+\textbf{University of Southern California}
+
+  \years{2017}M.A. in Strategic Public Relations, The Annenberg School\\
+%  \years{} \textit{Director’s Award for Excellence}}\\
+%  \years{} \hspace*{2em} \textit{Thesis: Public Relations as a Diversity Management Approach}\\
+%  \years{} \hspace*{2em} \textit{Advisor: Aimei Yang}\\
+%  \years{} \hspace*{2em} \textit{Readers: Robert Kozinets \& Larry Gross}\\
+  
+\textbf{Tsinghua University}
+
+  \years{2015} B.Eng. in Mechanical Engineering\\
+  \years{2015} B.A. in Journalism
+
+% Research Areas
+\section*{Research Areas}
+  \years{-} Computational Social Science: Digital Media, Social Networks, Causal Inference\\
+  \years{-} Strategic Communication: Public Relations, Network Ecology, Public-Public Relationships\\
+  \years{-} Political Communication: Audience Behavior, News Consumption, Ideological Segregation
+
+% Awards and Honors
+\section*{Awards and Honors}
+
+\textbf{Academic Research Awards and Honors}
+
+  \years{2019} Robert Heath Award, International Communication Association\\
+  \years{2019} Top Faculty Paper Award, 1$^{st}$ Place, International Communication Association\\
+  \years{2018} Top Student Paper Award, 1$^{st}$ Place, National Communication Association\\
+  \years{2017-22} Annenberg Summer Fellowship, University of Pennsylvania\\
+  \years{2017-22} Annenberg Research/Teaching Fellowship, University of Pennsylvania\\
+  \years{2017} Director's Award for Excellence, University of Southern California\\
+  \years{2016} Top Student Paper Award, 3$^{rd}$ Place, National Communication Association\\
+
+\textbf{Travel and Other Awards and Honors}
+
+  \years{2019-22} GAPSA Student Travel Grant, University of Pennsylvania\\
+  \years{2019} Prestage-Cook Travel Award, Southern Political Science Association\\
+  \years{2019} Student Travel Grant, ICA Computational Methods Interest Group\\
+  \years{2017} Student Travel Grant, International Communication Association\\
+  \years{2016} GSG Student Travel Grant, University of Southern California\\
+  \years{2014} Student Leadership Award, Tsinghua University\\
+  \years{2013} Silver Award, College Student Physics Competition, Chinese Physical Society
+
+% Publications
+\section*{Publications}
+\vspace{-12pt}
+{\footnotesize \text{*} Pre-prints and replication materials for all publications are available on \href{https://osf.io/utdaf/}{my OSF page}.}\\
+
+\textbf{Journal Articles}
+
+  \years{[3]} Xu, S., \& Zhou, A. (2020). Hashtag Homophily in Twitter Network: Examining a Controversial Cause-Related Marketing Campaign. \textit{Computers in Human Behavior}, \textit{102}, 87-96. \doi{https://doi.org/10.1016/j.chb.2019.08.006}\\
+  \years{} {[SSCI, 2018 1Y/5YIF: 4.306/4.964]}\\
+  \years{[2]} Jaidka, K., Zhou, A., \& Lelkes, Y. (2019). Brevity is the Soul of Twitter: The Constraint Affordance and Political Discussion. \textit{Journal of Communication}, \textit{69}(4), 345–372. \doi{https://doi.org/10.1093/joc/jqz023}\\
+  \years{} {[SSCI, 2018 1Y/5YIF: 3.753/6.718]}\\
+  \years{} {[Lead Article] [Media Coverage: \href{https://www.washingtonpost.com/politics/2019/09/17/twitter-got-somewhat-more-civil-when-tweets-doubled-length-heres-how-we-know}{Washington Post}]}\\
+  \years{[1]} Zhou, A. (2019). Bring Publics back into Networked Public Relations Research: A Dual-Projection Approach for Network Ecology. \textit{Public Relations Review}, \textit{45}(4), 101772. \doi{https://doi.org/10.1016/j.pubrev.2019.03.004}\\
+  \years{} {[SSCI, 2018 1Y/5YIF: 1.616/2.013]}\\
+
+\textbf{Journal Articles Under Review}
+
+%\years{[6]} Zhou, A., \& Yang, A. \textit{Bridging Inter-Movement Networks: A Structural Analysis of Movement Spillover.}\\
+%\years{[5]} Jaidka, K., Zhou, A., \& Lelkes, Y. \textit{This SIDE of Us: An Experiment for Improving Online Deliberation through Online Personalization and Party Identity Manipulations.}\\
+%\years{[4]} Zhou, A. \textit{Relationship Management in an Organizational Network Ecology: Toward the Concept of Public-Public Relationships.}\\
+%\years{[3]} Zhou, A. \textit{The Emerging Values of Global CSR Discourse on LGBTQ Advocacy.}\\
+\years{[2]} Zhou, A. \textit{Causal Effects of Affordance Change on Communication Behavior.}\\
+\years{[1]} Zhou, A., \& Xu, S. \textit{Remaking Dialogic Principles for the Digital Age: The Role of Affordances in Dialogue and Engagement.} \preprint{https://dx.doi.org/10.31235/osf.io/uzhk9}\\
+
+\textbf{Book Reviews}
+
+  \years{[2]} Zhou, A. (2018). Review of \textit{Society \& the Internet: How Networks of Information and Communication are Changing Our Lives}, edited by Mark Graham \& William H. Dutton. \textit{Information, Communication \& Society, 21}(12), 1769-1771. \doi{https://doi.org/10.1080/1369118X.2018.1465577}\\
+  \years{[1]} Zhou, A. (2017). Review of \textit{\#Republic: Divided Democracy in the Age of Social Media}, by Cass R. Sunstein. \textit{Journal of Communication, 67}(6), E12–E14. \doi{https://doi.org/10.1111/jcom.12344}\\
+
+\textbf{Refereed Conference Presentations}
+
+%\years{[14]} Wang, R., \& Zhou, A. (2020). \textit{\#HongKongPoliceBrutality}. National Communication Association (XXX), Indianapolis, IN.\\
+%\years{[13]} Zhou, A., \& Yang, A. (2020). \textit{Bridging Inter-Movement Networks: A Structural Analysis of Movement Spillover}. National Communication Association (XXX), Indianapolis, IN.\\
+%\years{[12]} Zhou, A. (2020). \textit{Causal Effects of Affordance Change on Communication Behavior}. Association for Education in Journalism and Mass Communication (Communication Technology Division), San Francisco, CA.\\
+\years{[11]} Wang, R., Zhou, A., \& Bar, F. (2020). \textit{Identifying Network Mechanisms Underlying the Use of \#HongKongPoliceBrutality}. International Network for Social Network Analysis (SunBelt), Paris, France.\\
+\years{[10]} Zhou, A. (2020). \textit{Relationship Management in an Organizational Network Ecology: Toward the Concept of Public-Public Relationships}. International Communication Association (Public Relations Division), Gold Coast, Australia.\\
+\years{[9]} Jaidka, K., Zhou, A., \& Lelkes, Y. (2020). \textit{This SIDE of Us: Experiments to Improve Deliberation by Manipulating Social Media Affordances}. International Communication Association (Computational Methods Interest Group), Gold Coast, Australia. [Also Presented at IC2S2 2020]\\
+  \years{[8]} Zhou, A., \& Xu, S. (2019). \textit{Expanding and Repositioning the ``Ease of Interface'' Dialogic Principle: The Role of Affordances in Digital Dialogue and Engagement}. International Communication Association (Public Relations Division), Washington, DC. [Robert Heath Award] [Top Faculty Paper Award, 1$^{st}$ Place]\\
+  \years{[7]} Zhou, A., \& González-Bailón, S. (2019). \textit{Revisiting Ideological Segregation on the Web: A Block Model Approach to Audience Network Data}. International Communication Association (Computational Methods Interest Group), Washington, DC.\\
+  \years{[6]} Jaidka, K., Zhou, A., \& Lelkes, Y. (2019). \textit{The Effect of Technological Affordances on the Online Political Sphere: The Case of Twitter Character Limit Switch}. International Communication Association (Political Communication Division), Washington, DC. [Also Presented at SPSA 2019 \& APSA 2019]\\
+  \years{[5]} Zhou, A. (2019). \textit{Networks of Publics Overlap: A Network Measure for Social Media Campaign Management}. International Public Relations Research Conference, Orlando, FL.\\
+  \years{[4]} Zhou, A., \& Xu, S. (2018). \textit{Bigger Playground, Better Dialogues?: A Large-Scale Examination of Corporate Twitter Communication in the 280-Character Era}. National Communication Association (Public Relations Division), Salt Lake City, UT. [Top Student Paper Award, 1$^{st}$ Place]\\
+  \years{[3]} Zhou, A. (2018). \textit{Bring Publics back into Networked Public Relations Research: A Dual-Projection Approach for Network Ecology}. International Communication Association (Public Relations Division), Prague, Czech Republic.\\
+  \years{[2]} Zhou, A., \& Khan, A. (2017). \textit{Altruistic or ``Pinkwashed'' CSR Discourse: An Analysis of Corporate and Non-Profit LGBTQ Values}. International Communication Association (Public Relations Division), San Diego, CA.\\
+  \years{[1]} Zhou, A. (2016). \textit{The Emerging Values of Global CSR Discourse: A Cross-National Big-Data Analysis of Fortune Global 500 Companies' LGBT Values}. National Communication Association (Public Relations Division), Philadelphia, PA. [Top Student Paper Award, 3$^{rd}$ Place]
+
+% Invited Presentations
+\section*{Invited Presentations}
+
+  \years{2019} Invited Panelist, \textit{How Far Have We Come?: Public Relations Theory Building and Development}, International Communication Association.\\
+  \years{2019} Invited Talk, \textit{Advancing the Network Ecology Approach to Public Relations}, Invited by Adam Saffer, University of North Carolina at Chapel Hill.\\
+  \years{2019} Invited Talk, \textit{Advancing the Network Ecology Approach to Public Relations}, Invited by Maureen Taylor, University of Tennessee.\\
+  \years{2016} Invited Talk, \textit{Automated Text Analysis with Topic Modeling}, Invited by Patricia Riley, University of Southern California.
+
+% Teaching
+\section*{Teaching}
+
+\textbf{Teaching Areas}
+
+  \years{-} Computational Social Science: Data Mining/Visualization, Social Computing, Networks\\
+  \years{-} Public Relations Theory, Method, and Campaign\\
+  \years{-} Audience Behavior, News Consumption, Ideological Segregation\\
+  \years{-} Digital Methods, Quantitative Research Methods, Causal Inference\\
+
+\textbf{Teaching Training and Honors}
+
+  \years{2020} Teaching Certificate, Center for Teaching and Learning, UPenn\\
+  \years{2019} Boot Camp on Online Teaching, Center for Teaching and Learning, UPenn\\
+  \years{2018} Teaching Qualification, Center for Teaching and Learning, UPenn\\
+
+\textbf{Teaching Experiences}
+
+  \years{2020} COMM 313, Computational Text Analysis, University of Pennsylvania\\
+  \years{} Teaching Fellow for Matthew O'Donnell, 50 Students\\
+  \years{} Manage Weekly Lab Sessions on Text Analysis in Python\\
+  \years{} One Guest Lecture on \textit{Natural Language Processing in Communication Research}\\
+  \years{2019} COMM 226, Intro to Political Communication, University of Pennsylvania\\
+  \years{} Teaching Fellow for Doron Taussig, 70 Students\\
+  \years{} One Guest Lecture on \textit{Political Polarization}\\
+  \years{2019} COMM 407, Understanding Social Networks, University of Pennsylvania\\
+  \years{} Teaching Fellow for Sandra González-Bailón, 22 Students\\
+  \years{} Manage Weekly Lab Sessions on Social Network Analysis in Gephi\\
+  \years{2019} COMM 130, Media Industries and Society, University of Pennsylvania\\
+  \years{} Teaching Fellow for Lee McGuigan, 70 Students\\
+  \years{} One Guest Lecture on \textit{The Contemporary Video Game Industry}\\
+  \years{2019} COMM 284, Public Relations Research, Measurement, and Evaluation, Drexel University\\
+  \years{} Guest Lecturer Invited by Hyunmin Lee, 20 Students\\
+  \years{} Two Guest Lectures on \textit{Public Relations \& Social Networks}
+
+% Grant Experiences
+\section*{Grant Experiences}
+
+  \years{2020} PI for \textit{Digital Inequalities in Organizational Listening}\\
+  \years{} Page/Johnson Legacy Scholar Grant (\$9,900)\\
+  \years{} Not Funded. Co-PI: Rita Linjuan Men \& Tom Kelleher\\
+  \years{2020} Co-PI for \textit{Using Chatbots for Organizational Listening}\\
+  \years{} Page/Johnson Legacy Scholar Grant (\$5,500)\\
+  \years{} Funded. PI: Rita Linjuan Men; Co-PI: Wanhsiu Sunny Tsai\\
+  \years{2019} Research Fellow for \textit{Effects of Social Network Affordances on Political Discussion Health}\\
+  \years{} Facebook Integrity Foundational Research (\$100,000)\\
+  \years{} Funded. PI: Yphtach Lelkes\\
+  \years{2018-20} Research Fellow for \textit{Digital News and the Consumption of Information Online}\\
+  \years{} National Science Foundation Grant (\$130,000)\\
+  \years{} Funded. PI: Sandra González-Bailón
+
+% Academic Experiences
+\section*{Academic Experiences}
+
+  \years{2018}The Annenberg Summer Institute for Methods and Statistics (ASIMS)\\
+  \years{2018}Research Fellow for Sandra González-Bailón: DiMeNet Research Group\\
+  \years{2017-18}Research Fellow for Damon Centola: Network Dynamics Group\\
+  \years{2016-17}Research Assistant for Jay Wang: Center on Public Diplomacy\\
+  \years{2015-17}Research Assistant for Patricia Riley: Scenario Lab\\
+  \years{2015-17}Research Assistant for Joe Saltzman: The Norman Lear Center\\
+  \years{2012-14}Research Assistant for Jianbin Jin: Tsinghua-RenRen Social Media Lab\\
+  \years{2012-14}Research Assistant for Guanpeng Dong: IPRSC
+
+% Services
+\section*{Services}
+
+\textbf{Review Services}
+
+  \years{2019-} Ad-hoc Reviewer (by alphabetical order):\\
+  \years{} \hspace*{2em} \textit{Political Communication}, \textit{Public Relations Review}\\
+  \years{2017-} ICA Divisions: Computational Methods, Political Communication, \& Public Relations\\
+  \years{2016-} NCA Divisions: Political Communication \& Public Relations\\
+
+\textbf{Administrative and Conference Services}
+
+  \years{2019-} Social Media and Fundraising Committee, Public Relations Division, NCA\\
+  \years{2018-}Group Coordinator, DiMeNet Research Group, University of Pennsylvania\\
+  \years{2015-17}IJPC Manager, Norman Lear Center, University of Southern California
+
+% Graduate Coursework
+
+\section*{Graduate Coursework}
+
+\textbf{Computational Social Science and Advanced Statistics}
+
+  \years{} Data Visualization (UPenn Annenberg, Sandra González-Bailón)\\
+  \years{} Causal Inference and Bayesian Inference (UPenn Political Science, Daniel Hopkins)\\
+  \years{} Research Methods for a Fragmented Media Environment (UPenn Annenberg, Yphtach Lelkes)\\
+  \years{} Research Seminar on Computational Social Science (UPenn Annenberg, Damon Centola)\\
+  \years{} Experimental Design and Issues in Causality (UPenn Annenberg, Diana Mutz)\\
+  \years{} Modern Data Mining (Wharton, Linda Zhao)\\
+  \years{} Causal Inference (Wharton, Dylan Small)\\
+  \years{} Observational Studies (Wharton, Dylan Small)\\
+  \years{} Modern Regression and Machine Learning (Wharton, Richard Berk)\\
+  \years{} Nonparametric and Log-Linear Models (Wharton, Paul Rosenbaum)\\
+  \years{} Applied Regression and Analysis of Variance (Wharton, Paul Rosenbaum)\\
+  \years{} Modern Statistics for Social and Behavioral Sciences (USC Psychology, Rand Wilcox)\\
+
+\textbf{Strategic Communication}
+
+  \years{} Theories of Organizational Communication (USC Annenberg, Patricia Riley)\\
+  \years{} Research and Evaluation for Communication Campaigns (UPenn Annenberg, Robert Hornik)\\
+  \years{} Strategic Public Relations (USC Annenberg, Dotty Diemer)\\
+  \years{} Public Relations Theory, Research, and Campaigns (USC Annenberg, Robert Kozinets)\\
+  \years{} Multimedia Content Creation for Strategic Public Relations (USC Annenberg, Clint Schaff)\\
+  \years{} Economic Foundations of Strategic Public Relations (USC Annenberg, Burghardt Tenderich)\\
+  \years{} Ethical Foundations of Strategic Public Relations (USC Annenberg, Daren Brabham)\\
+  \years{} Public Relations Writing (USC Annenberg, Ron Grover)\\
+
+\textbf{Political Communication}
+
+  \years{} Digital News Consumption (UPenn Annenberg, Sandra González-Bailón)\\
+  \years{} Polarization and Partisan Discord (UPenn Annenberg, Yphtach Lelkes)\\
+  \years{} Ideological Segregation (UPenn Annenberg, Sandra González-Bailón)\\
+  \years{} Affordances and Digital Media (UPenn Annenberg, Yphtach Lelkes)\\
+  \years{} Social Psychology in Communication (UPenn Annenberg, Joseph Cappella)\\
+  \years{} Communication Research (UPenn Annenberg, Robert Hornik)\\
+  \years{} Digital Inequalities (UPenn Annenberg, Julia Ticona)
+
+% Professional Experiences  
+
+\section*{Professional Experiences}
+
+  \years{2014-16} Journalist, Vista Story, Beijing\\
+%  [.2cm]{\small\textit{I wrote dozens of news articles on politics and public affairs for \href{https://weibo.com/vistastory}{Vista Story}, the best-selling news magazine in China. My most shared work includes: \href{https://goo.gl/HrPLCf}{Chinese Bullies Abroad: When Adolescent Misbehavior Breaks American Laws}; \href{https://mp.weixin.qq.com/s/VRI--oVEJGC8m2isrgKvdQ}{The Rainbow Flag: US Supreme Court Legalizes Same-sex Marriage}; \href{https://mp.weixin.qq.com/s/MTwhcEFCdQV5XQ6MbuCpgg}{Caitlyn Jenner: The Transition of the Olympics Decathlete}; \href{https://goo.gl/HRzxQS}{Entrepreneur Li KeQiang}; \href{https://mp.weixin.qq.com/s/44ho_gGsIeMl4O_bT9iNew}{HandJob Angels: Volunteers Help Release the Sexual Desires of the Handicapped}; \href{https://goo.gl/QWctZa}{Torture Report: The Dark Side of C.I.A.}; \href{https://weibo.com/1323527941/AAXVOakBL?from=page_1002061323527941_profile&wvr=6&mod=weibotime}{Flight Safety in the Aftermath of MH370}.}}\\[.2cm]
+   \years{2013} Broadcaster Intern, Xinhua News Agency, Beijing\\
+   \years{2013} Reporter Intern, News Probe, China Central Television, Beijing\\
+   \years{2013} Account Executive Intern, BlueFocus Communication Group, Beijing\\
+   \years{2012-13} Vice Chairman, Project Management Association, Tsinghua University\\
+   \years{2012-13} Vice Minister, Tsinghua Student Union, Tsinghua University
+%   \years{2012}Director, Cinematographer, \& Film Editor, Memorial Film for Zhuji High School’s Centennial, Zhuji, Zhejiang. \href{http://video.tudou.com/v/XMjE5MTY0MTYwMA==.html?bid=03\&pid=02\&resourceId=0_03_05_02}{\textit{TuDou}}
+
+% % Skills
+
+\section*{Skills}
+
+  \years{Language} Mandarin Chinese (native), R, Python, \LaTeX, SPSS, STATA\\
+  \years{Media} Final Cut Pro, Sony Vegas Pro 12, Adobe Illustrator, \& Adobe Photoshop, all proficient with years of professional multimedia production experiences
+
+%\newpage
+% References
+%\section*{References}
+%
+%\textbf{Sandra González-Bailón}\\
+%Associate Professor\\
+%The Annenberg School\\
+%University of Pennsylvania\\
+%Email: \href{mailto:sgonzalezbailon@asc.upenn.edu}{sgonzalezbailon@asc.upenn.edu}\\[.5cm]
+%\textbf{Aimei Yang}\\
+%Assistant Professor\\
+%The Annenberg School\\
+%University of Southern California\\
+%Email: \href{mailto:aimei.yang@usc.edu}{aimei.yang@usc.edu}\\[.5cm]
+%\textbf{Yphtach Lelkes}\\
+%Assistant Professor\\
+%The Annenberg School\\
+%University of Pennsylvania\\
+%Email: \href{mailto:yphtach.lelkes@asc.upenn.edu}{yphtach.lelkes@asc.upenn.edu}
+
+\end{document}
