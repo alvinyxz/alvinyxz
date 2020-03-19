@@ -14,7 +14,7 @@ role: PhD Candidate
 
 # Organizations/Affiliations
 organizations:
-- name: Annenberg School | UPenn
+- name: UPenn Annenberg
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
@@ -28,13 +28,13 @@ interests:
 education:
   courses:
   - course: PhD in Communication
-    institution: Annenberg School | UPenn
+    institution: UPenn Annenberg
     year: 2022
   - course: MA in Statistics
-    institution: Wharton School | UPenn
+    institution: UPenn Wharton
     year: 2020
   - course: MA in Strategic Public Relations
-    institution: Annenberg School | USC
+    institution: USC Annenberg
     year: 2017
 
 # Social/Academic Networking
