@@ -28,13 +28,13 @@ interests:
 education:
   courses:
   - course: PhD in Communication
-    institution: Annenberg School | UPenn
+    institution: UPenn Annenberg School
     year: 2022
   - course: MA in Statistics
-    institution: Wharton School | UPenn
+    institution: UPenn Wharton School
     year: 2020
   - course: MA in Strategic Public Relations
-    institution: Annenberg School | USC
+    institution: USC Annenberg School
     year: 2017
 
 # Social/Academic Networking
@@ -81,4 +81,4 @@ I recently graduated from the [Wharton School](https://www.wharton.upenn.edu) wi
 
 I am the group coordinator of the [DiMeNet](https://dimenet.asc.upenn.edu) research group, where I work for a NSF grant that is developing network measures for digital news consumption. I am also active in the [DIG](https://www.asc.upenn.edu/research/research-centers/democracy-information-group) research group, where I am collaborating with [Yphtach Lelkes](https://www.asc.upenn.edu/people/faculty/yphtach-lelkes-phd) and [Kokil Jaidka](http://profile.nus.edu.sg/fass/cnmkj/) on several studies that explore the role of affordances in human communication. Using big datasets, simulation, and network analysis, I am also advancing theories that were previously established by case studies and surveys in strategic communication. This series of work have won a Robert Heath Award and a Top Faculty Paper Award at ICA, and two Top Student Paper Awards at NCA.
 
-I was a communication practitioner before entering the academia. Between 2014 and 2016, I was a reporter and later on a freelance writer at [Vista Story](https://weibo.com/vistastory), the best-selling news magazine in China. I have also worked for BlueFocus Communication Group as a public relations consultant, and for China Central Television and Xinhua News Agency as a reporter.
+I was a communication practitioner before entering the academia. Between 2014 and 2016, I was a reporter and later on a freelance writer at [Vista Story](https://weibo.com/vistastory). I have also worked for BlueFocus Communication Group as a public relations consultant, and for China Central Television and Xinhua News Agency as a reporter.
