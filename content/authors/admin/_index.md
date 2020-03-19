@@ -28,13 +28,13 @@ interests:
 education:
   courses:
   - course: PhD in Communication
-    institution: UPenn Annenberg
+    institution: Annenberg School | UPenn
     year: 2022
   - course: MA in Statistics
-    institution: UPenn Wharton
+    institution: Wharton School | UPenn
     year: 2020
   - course: MA in Strategic Public Relations
-    institution: USC Annenberg
+    institution: Annenberg School | USC
     year: 2017
 
 # Social/Academic Networking
